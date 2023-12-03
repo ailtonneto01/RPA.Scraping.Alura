@@ -5,9 +5,18 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-RPA.Scraping.Alura.Application-64c47a3e-388e-4c01-8eff-c52bc1fc659b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPA.Scraping.Alura.Domain\RPA.Scraping.Alura.Domain.csproj" />
+    <ProjectReference Include="..\RPA.Scraping.Alura.Infra.Data\RPA.Scraping.Alura.Infra.Data.csproj" />
+    <ProjectReference Include="..\RPA.Scraping.Alura.Service\RPA.Scraping.Alura.Service.csproj" />
   </ItemGroup>
 </Project>
