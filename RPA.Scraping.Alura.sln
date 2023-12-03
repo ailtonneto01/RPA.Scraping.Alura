@@ -5,11 +5,16 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPA.Scraping.Alura.Application", "RPA.Scraping.Alura.Application\RPA.Scraping.Alura.Application.csproj", "{FBEF9827-7731-4D7A-A0BB-D9B071482EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPA.Scraping.Alura.Domain", "RPA.Scraping.Alura.Domain\RPA.Scraping.Alura.Domain.csproj", "{E30A3505-ECD1-4796-9791-87A279416E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPA.Scraping.Alura.Domain", "RPA.Scraping.Alura.Domain\RPA.Scraping.Alura.Domain.csproj", "{E30A3505-ECD1-4796-9791-87A279416E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPA.Scraping.Alura.Infra.Data", "RPA.Scraping.Alura.Infra.Data\RPA.Scraping.Alura.Infra.Data.csproj", "{5D06E269-DC1F-4187-85CC-16753F66EC57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPA.Scraping.Alura.Infra.Data", "RPA.Scraping.Alura.Infra.Data\RPA.Scraping.Alura.Infra.Data.csproj", "{5D06E269-DC1F-4187-85CC-16753F66EC57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPA.Scraping.Alura.Service", "RPA.Scraping.Alura.Service\RPA.Scraping.Alura.Service.csproj", "{F88ED14C-8334-49D7-9710-88E886071043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPA.Scraping.Alura.Service", "RPA.Scraping.Alura.Service\RPA.Scraping.Alura.Service.csproj", "{F88ED14C-8334-49D7-9710-88E886071043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{595C0875-B3E6-4914-8100-935F3717A351}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
