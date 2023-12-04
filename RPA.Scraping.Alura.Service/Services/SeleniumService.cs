@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Logging;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
 using RPA.Scraping.Alura.Domain.Entities;
 using RPA.Scraping.Alura.Domain.Interfaces;
 using System.Collections.ObjectModel;
@@ -73,7 +72,6 @@ namespace RPA.Scraping.Alura.Service.Services
 
             return false;
         }
-
 
         public List<Curso> GetCursos(string pesquisa)
         {
@@ -166,7 +164,6 @@ namespace RPA.Scraping.Alura.Service.Services
                 Thread.Sleep(TimeSpan.FromMilliseconds(250));
             }
         }
-
 
         private string GetCargaHoraria()
         {

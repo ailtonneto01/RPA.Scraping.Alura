@@ -1,6 +1,5 @@
 using RPA.Scraping.Alura.Domain.Entities;
 using RPA.Scraping.Alura.Domain.Interfaces;
-using RPA.Scraping.Alura.Service.Services;
 
 namespace RPA.Scraping.Alura.Application
 {
@@ -51,6 +50,11 @@ namespace RPA.Scraping.Alura.Application
                             foreach (var curso in cursos)
                             {
                                 _baseSearchService.InserirRegistro(curso);
+
+                                Console.WriteLine($"TERMO PESQUISADO: {curso.TermoPesquisado} | " +
+                                                  $"TITULO: {curso.Titulo} | " +
+                                                  $"PROFESSOR: {curso.Professor} | " +
+                                                  $"CARGA HORARIA: {curso.CargaHoraria}");
                             }
                         }
 
